@@ -1,4 +1,4 @@
-package com.lhf.dynamicAnn;
+package com.lhf.dynamicDB;
 
 import java.lang.annotation.*;
 
