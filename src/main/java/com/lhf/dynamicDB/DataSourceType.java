@@ -5,6 +5,8 @@ package com.lhf.dynamicDB;
  * @Description
  * @Date 2019/2/20 12:26
  * @Version 1.0
+ *
+ * 数据源信息，每个数据源的标识
  **/
 public interface DataSourceType {
     String MASTER = "ds1";

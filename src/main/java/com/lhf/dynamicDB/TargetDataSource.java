@@ -7,10 +7,12 @@ import java.lang.annotation.*;
  * @Description
  * @Date 2019/1/29 19:19
  * @Version 1.0
+ *
+ * 切换数据源注解
  **/
 @Target({ ElementType.METHOD, ElementType.TYPE })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface TargetDataSource {
-    String value();
+    String value() default DataSourceType.MASTER;
 }

@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
  * @Description
  * @Date 2019/2/20 12:43
  * @Version 1.0
+ *
+ * 每个线程中存储的当前线程的注解上标注的数据源
  **/
 @Component
 public class DBHelper {
